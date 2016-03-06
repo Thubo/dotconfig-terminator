@@ -1,7 +1,7 @@
 [global_config]
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 0
   inactive_color_offset = 0.9
-  borderless = True
 [keybindings]
   next_tab = <Shift><Alt>l
   prev_tab = <Shift><Alt>h
