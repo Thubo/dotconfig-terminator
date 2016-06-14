@@ -3,33 +3,34 @@
   handle_size = 0
   inactive_color_offset = 0.9
 [keybindings]
+  layout_launcher = None
   next_tab = <Shift><Alt>l
   prev_tab = <Shift><Alt>h
-[profiles]
-  [[default]]
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    background_darkness = 0.58
-    use_system_font = False
-    foreground_color = "#56ea59"
-    font = Monospace 9
-    background_color = "#00181e"
-    scrollback_infinite = True
-  [[HighContrast]]
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
-    background_image = None
-    background_darkness = 0.8
-    use_system_font = False
-    foreground_color = "#00ff00"
-    font = Monospace 9
-    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
       profile = default
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#00181e"
+    background_darkness = 0.58
+    background_image = None
+    font = Monospace 9
+    foreground_color = "#56ea59"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    use_system_font = False
+  [[HighContrast]]
+    background_darkness = 0.8
+    background_image = None
+    font = Monospace 9
+    foreground_color = "#00ff00"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
